@@ -1,0 +1,29 @@
+class Moeda:
+  def __init__(self,numero):
+    self.numero = numero
+
+
+  def makeChenage(self):
+    a = self.numero/0.25
+    print('sua moeda em quaters é', a)
+    b = self.numero/0.10
+    print('sua moeda em dimes é', b)
+    c = self.numero/0.05
+    print('sua moeda em nickels é', c)
+    d = self.numero/0.01
+    print('sua moeda em pennies é', d)
+
+   
+  
+
+
+  def dados_moeda (self):
+    print (self.makeChenage())
+
+m1 = Moeda(23)
+m2 = Moeda(2) 
+
+print(m1.numero)
+m1.makeChenage()
+
+
